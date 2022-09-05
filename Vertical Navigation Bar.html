@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.op{
+  margin-left:25%;
+  padding:1px 16px;
+  height:1000px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:25%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  background-color:#e8e8e8;
+}
+
+li a{
+  display: block;
+  background-color:#e8e8e8;
+  text-decoration: none;
+  padding: 8px 20px;
+  color: #000;
+  text-align: center;
+}
+
+li a:hover{
+  background-color:#9e9e9e;
+  color:white;
+  font-weight: bold;
+}
+
+li a.active{
+   background-color:#0954b5;
+   color: white;
+}
+
+li a:hover:not(.active){
+   background-color:#6b6a6a;
+   color: white;
+}
+
+</style>
+</head>
+<body>
+
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+
+<div class="op" >
+   <h2>Vertical Navigation Bar</h2>
+      <p style="text-indent:10px;">Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+</div>
+</body>
+</html>
